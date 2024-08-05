@@ -6,7 +6,7 @@
 ![SQL](https://img.shields.io/badge/language-SQL-red.svg)
 
 ## Introduction
-This repository contains the third version of the AirBnB clone project. This version includes a RESTful API built using Flask and SQLAlchemy, which supports CRUD operations for different models (States, Cities, Amenities, Places, Reviews, and Users). The project aims to provide a backend for the AirBnB clone, allowing users to interact with the application via API endpoints.
+This repository contains the third version of the AirBnB clone project. This version includes a RESTful API built using Flask and SQLAlchemy, which supports CRUD operations for different models (States, Cities, Amenities, Places, Reviews, and Users). The project aims to implement and enhance endpoints for managing Place objects in an API. It provides a backend for the AirBnB clone, allowing users to interact with the application via API endpoints.
 
 ## Objective
 The objective is to improve upon the initial version by implementing additional features and functionality. 
@@ -31,12 +31,44 @@ The objective is to improve upon the initial version by implementing additional 
 ## Environment
 - Ubuntu 14.04 LTS
 - python3 (version 3.4.3)
+- Flask (Web framework used for building the API)
+- SQLite, SQLAlchemy
+
+## Requirements
+- Flask-RESTful
+
+## Learning Objectives
+
+- Understand how to implement and test RESTful API endpoints.
+- Learn to handle and validate JSON request bodies.
+- Implement advanced search and filtering functionalities.
 
 ## Installation
 * Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
 * Access AirBnb directory: `cd AirBnB_clone`
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
+
+## Project Structure
+
+| Task | Description | Source Code |
+|-----------------------------------|------------------------------------------------------|-----------------------------------------------|
+| 0 | Introduction | [Link](api/v1/views/places.py) |
+| 1 | Review & Debug | [Link](api/v1/views/places.py) |
+| 2 | Implement `GET /api/v1/cities/<city_id>/places` | [Link](api/v1/views/places.py) |
+| 3 | Add `POST /api/v1/places` | [Link](api/v1/views/places.py) |
+| 4 | Implement `GET /api/v1/places` | [Link](api/v1/views/places.py) |
+| 5 | Implement `DELETE /api/v1/places/<place_id>` | [Link](api/v1/views/places.py) |
+| 6 | Implement `PUT /api/v1/places/<place_id>` | [Link](api/v1/views/places.py) |
+| 7 | Implement `GET /api/v1/places/<place_id>` | [Link](api/v1/views/places.py) |
+| 8 | Implement `POST /api/v1/places_search` | [Link](api/v1/views/places.py) |
+| 9 | Implement `GET /api/v1/users/<user_id>/places` | [Link](api/v1/views/places.py) |
+| 10 | Implement `POST /api/v1/places_search` - Advanced | [Link](api/v1/views/places.py) |
+| 11 | Add Validation to `POST /api/v1/places_search` | [Link](api/v1/views/places.py) |
+| 12 | Implement Additional Filtering in `POST /api/v1/places_search` | [Link](api/v1/views/places.py) |
+| 13 | Test `POST /api/v1/places_search` | [Link](api/v1/views/places.py) |
+| 14 | Document `POST /api/v1/places_search` | [Link](api/v1/views/places.py) |
+| 15 | Review and Finalize | [Link](api/v1/views/places.py) |
 
 ## File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter. 
