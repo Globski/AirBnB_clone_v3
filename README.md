@@ -1,5 +1,15 @@
-HBNB - The Console
+# HBNB - The Console
+
+![Python](https://img.shields.io/badge/language-python-blue.svg)
+![HTML/CSS](https://img.shields.io/badge/language-HTML%2FCSS-orange.svg)
+![JavaScript](https://img.shields.io/badge/language-JavaScript-yellow.svg)
+![SQL](https://img.shields.io/badge/language-SQL-red.svg)
+
+## Introduction
 This repository contains the third version of the AirBnB clone project. This version includes a RESTful API built using Flask and SQLAlchemy, which supports CRUD operations for different models (States, Cities, Amenities, Places, Reviews, and Users). 
+
+## Objective
+The objective is to improve upon the initial version by implementing additional features and functionality. 
 
 #### Functionalities of this command interpreter:
 * Create a new object (ex: a new User or a new Place)
