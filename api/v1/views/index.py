@@ -19,7 +19,7 @@ def get_status():
         return jsonify({"status": "OK"})
 
 @app_views.route('/stats', methods=['GET'], strict_slashes=False)
-get_stats():
+def get_stats():
     """
     Function to return the count of all class objects by type.
     """
