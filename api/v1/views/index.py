@@ -19,7 +19,7 @@ def get_status():
         return jsonify({"status": "OK"})
 
 
-def get_status():
+get_stats():
     """
     Function to return the count of all class objects by type.
     """
