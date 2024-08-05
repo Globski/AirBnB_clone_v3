@@ -6,7 +6,7 @@
 ![SQL](https://img.shields.io/badge/language-SQL-red.svg)
 
 ## Introduction
-This repository contains the third version of the AirBnB clone project. This version includes a RESTful API built using Flask and SQLAlchemy, which supports CRUD operations for different models (States, Cities, Amenities, Places, Reviews, and Users). The project aims to implement and enhance endpoints for managing Place objects in an API. It provides a backend for the AirBnB clone, allowing users to interact with the application via API endpoints.
+This repository contains the third version of the AirBnB clone project. This version includes a RESTful API built using Flask and SQLAlchemy, which supports CRUD operations for different models (States, Cities, Amenities, Places, Reviews, and Users).
 
 ## Objective
 The objective is to improve upon the initial version by implementing additional features and functionality. 
