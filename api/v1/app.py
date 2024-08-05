@@ -14,6 +14,7 @@ def teardown_db(exception):
     """Teardown method to close the storage"""
     storage.close()
 
+
 @app.errorhandler(404)
 def not_found(error):
     """
