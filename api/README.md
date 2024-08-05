@@ -1,7 +1,7 @@
 # API with Swagger
 
 ## Description
-This directory contains the implementation of the RESTful API for the AirBnB clone project. The API allows for CRUD operations on various models, such as States, Cities, Amenities, Places, Reviews, and Users.
+This directory contains the implementation of the RESTful API for the AirBnB clone project. The API allows for CRUD operations on various models, such as States, Cities, Amenities, Places, Reviews, and Users. The project aims to implement and enhance endpoints for managing Place objects in an API. It provides a backend for the AirBnB clone, allowing users to interact with the application via API endpoints.
 
 ## Project Structure
 
