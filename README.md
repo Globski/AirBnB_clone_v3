@@ -49,27 +49,6 @@ The objective is to improve upon the initial version by implementing additional 
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
 
-## Project Structure
-
-| Task | Description | Source Code |
-|-----------------------------------|------------------------------------------------------|-----------------------------------------------|
-| 0 | Introduction | [Link](api/v1/views/places.py) |
-| 1 | Review & Debug | [Link](api/v1/views/places.py) |
-| 2 | Implement `GET /api/v1/cities/<city_id>/places` | [Link](api/v1/views/places.py) |
-| 3 | Add `POST /api/v1/places` | [Link](api/v1/views/places.py) |
-| 4 | Implement `GET /api/v1/places` | [Link](api/v1/views/places.py) |
-| 5 | Implement `DELETE /api/v1/places/<place_id>` | [Link](api/v1/views/places.py) |
-| 6 | Implement `PUT /api/v1/places/<place_id>` | [Link](api/v1/views/places.py) |
-| 7 | Implement `GET /api/v1/places/<place_id>` | [Link](api/v1/views/places.py) |
-| 8 | Implement `POST /api/v1/places_search` | [Link](api/v1/views/places.py) |
-| 9 | Implement `GET /api/v1/users/<user_id>/places` | [Link](api/v1/views/places.py) |
-| 10 | Implement `POST /api/v1/places_search` - Advanced | [Link](api/v1/views/places.py) |
-| 11 | Add Validation to `POST /api/v1/places_search` | [Link](api/v1/views/places.py) |
-| 12 | Implement Additional Filtering in `POST /api/v1/places_search` | [Link](api/v1/views/places.py) |
-| 13 | Test `POST /api/v1/places_search` | [Link](api/v1/views/places.py) |
-| 14 | Document `POST /api/v1/places_search` | [Link](api/v1/views/places.py) |
-| 15 | Review and Finalize | [Link](api/v1/views/places.py) |
-
 ## File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter. 
 List of commands this console current supports:
