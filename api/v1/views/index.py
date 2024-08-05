@@ -12,13 +12,13 @@ from models.review import Review
 from models.state import State
 from models.user import User
 
-@app_views.route('/status', methods=['GET'] strict_slashes=False)
+@app_views.route('/status', methods=['GET'], strict_slashes=False)
 def get_status():
     """Returns the status of the API"""
     if request.method == 'GET':
         return jsonify({"status": "OK"})
 
-
+@app_views.route('/stats', methods=['GET'], strict_slashes=False)
 get_stats():
     """
     Function to return the count of all class objects by type.
